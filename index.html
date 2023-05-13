@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>La Caca</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
-<body>
-  <div class="container">
-    <img src="https://i.imgur.com/8Z3wJlL.png" alt="Logo del servidor" class="logo">
-    <h1 class="title">La Caca</h1>
-    <h2 class="subtitle">El mejor servidor de discord del mundo</h2>
-    <a href="https://discord.gg/6v2sbGZk97" class="button">Unirse al servidor</a>
-  </div>
-</body>
-</html>
+import discor
+import random
+
+client = discord.client()
+
+prefixes = ['+34 6', '+34 7', '+34 8', '+34 9']
+
+def generate_nunber():
+return random.randint(100000000, 90000000)
+
+@client.event
+async def on_message(message):
+if mesage.author == client.user
+return
+
+if message.content == '!phone':
+prefix = random.choice(prefixes)
+number = generate_number()
+
+await mesage.channel.send(prefix + str(number))
