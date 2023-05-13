@@ -1,1 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 36px;
+  color: #333333;
+  margin-top: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7289da;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
