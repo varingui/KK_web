@@ -30,6 +30,7 @@ img {
   color: #ffffff;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .mui-button--raised {
