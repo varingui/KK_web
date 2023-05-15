@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-color: #212121;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1em;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.mui-button {
+  background-color: #4CAF50;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.mui-button--raised {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mui-button--primary {
+  color: #ffffff;
+  background-color: #4CAF50;
+}
