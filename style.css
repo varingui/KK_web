@@ -5,20 +5,49 @@ body {
 }
 
 h1 {
+  font-family: Merriweather Black 900;
   font-size: 24px;
   margin: 0 0 16px 0;
 }
 
-.center {
-  text-align: center;
+header {
+  background-color: #4285f4;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1000px;
   margin: 0 auto;
 }
 
+nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3367d6;
+}
+
 img {
-  width: 200px;
-  height: 200px;
+  max-width: 100%;
   margin: 0 auto;
-  border-radius: 50%;
 }
 
 button {
@@ -32,4 +61,10 @@ button {
 
 button:hover {
   background-color: #3367d6;
+}
+
+footer {
+  background-color: #303030;
+  padding: 20px 0;
+  text-align: center;
 }
