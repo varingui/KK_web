@@ -1,8 +1,0 @@
-@bot.command()
-async def dado(ctx, n: int = 6):
-    # Importar la librería random
-    import random
-    # Generar un número aleatorio entre 1 y n
-    resultado = random.randint(1, n)
-    # Enviar el resultado al canal donde se invocó el comando
-    await ctx.send(f"Has sacado un {resultado}.")
