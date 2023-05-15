@@ -10,9 +10,10 @@ h1 {
 }
 
 img {
-  width: 100%;
-  max-width: 500px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
+  border-radius: 50%;
 }
 
 button {
