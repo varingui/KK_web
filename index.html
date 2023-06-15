@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KKland</title>
   <link rel="stylesheet" href="style.css">
+  
+    <script>
+    const url = "https://uptime.betterstack.com/api/v1/heartbeat/ip4uJvE1KbALKfyLvgjMkxdb";
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const status = data.status;
+        if (status === "down") {
+          // Realizar una acción si el heartbeat está abajo, como enviar una notificación o redirigir a otra página.
+        }
+      })
+      .catch(error => {
+        // Realizar una acción si hay un error al obtener el estado del heartbeat.
+      });
+  </script>
+  
 </head>
 <body>
   <header>
