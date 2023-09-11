@@ -3,15 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KKland</title>
+  <title>Mantenimiento en progreso</title>
   <link rel="stylesheet" href="style.css">
-
-  <script>
-  window.intercomSettings = {
-    api_base: "https://api-iam.intercom.io",
-    app_id: "nbalsdle"
-  };
-</script>
   
     <script>
     const url = "https://uptime.betterstack.com/api/v1/heartbeat/ip4uJvE1KbALKfyLvgjMkxdb";
@@ -30,32 +23,29 @@
   
 </head>
 <body>
-  <header>
-    <h1 style="font-family: 'Open Sans', sans-serif;">
-      <img src="https://cdn.discordapp.com/attachments/1056606591320866928/1105904443632922635/logito_nuevo.jpg" alt="Logo" style="width:100px; border-radius: 5px;">
-      <h1>KKland</h1>
-    </h1>
-  </header>
-  <main>
-    <div class="container">
+<bh-container>
+  <bh-doppler></bh-doppler>
+  <bh-photon-ring></bh-photon-ring>
+  <bh-accretion></bh-accretion>
+  <bh-backdrop></bh-backdrop>
+  <bh-shadow></bh-shadow>
+</bh-container>
+<audio src="https://deepspace.vercel.app/audio.mp3" loop></audio>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 400 400">
+    <path fill="none" d="M0 0h400v400H0z" />
+    <path d="M154 302c94 0 146-79 146-146l-1-7a104 104 0 0026-27 102 102 0 01-29 9 51 51 0 0022-29 103 103 0 01-32 13 51 51 0 00-88 46 146 146 0 01-106-53 51 51 0 0016 68 51 51 0 01-23-6v1a51 51 0 0041 50 51 51 0 01-23 1 51 51 0 0048 35 103 103 0 01-64 22 104 104 0 01-12 0 145 145 0 0079 23" fill="#1da1f2" /></svg>
+</a>
+<bh-audio onclick="playAudio()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+    <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+  </svg></bh-audio>
 
-      <h2 style="font-family: 'Open Sans', sans-serif;">About</h2>
-      <p style="font-family: 'Open Sans', sans-serif;">
-        ¡Bienvenido al servidor de Discord de Entretenimiento y Programación! Este servidor es un lugar para que las personas de ideas afines se reúnan, chateen, compartan ideas y proyectos, y colaboren en proyectos de programación.
-
-        El servidor tiene una variedad de canales para diferentes intereses, que incluyen:
-
-        #general: Un canal general para chatear sobre cualquier cosa.
-        #programming: Un canal para discutir programación y proyectos de programación.
-
-        ¡Únete al servidor hoy y únete a la comunidad!
-
-        Espero que esto ayude!</p>
-
-      <br>
-      <button id="join-button" style="font-family: 'Open Sans', sans-serif;">Join our Discord Server</button>
-    </div>
-  </main>
+<script>
+  const playAudio = () => {
+    const audio = document.querySelector("audio");
+    audio.play();
+  }
+</script>
   <script src="script.js"></script>
 </body>
 </html>
