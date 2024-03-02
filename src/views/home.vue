@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <div class="icon-container">
-            <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg8jx2Ok_Wz209VO6gJTbqPeaQHLEI5q7JraHNxuH1iQ&s" alt="Icon" />
+            <img class="icon" src="https://kkweb.fra1.cdn.digitaloceanspaces.com/logito_nuevo.jpg" alt="Icon" />
         </div>
         <button class="join-button" @click="redirectToDiscord">Únete al servidor de Discord</button>
     </div>
@@ -11,17 +11,27 @@
 export default {
     methods: {
         redirectToDiscord() {
-            window.location.href = "https://www.google.com";
+            window.location.href = "https://discord.com/invite/A9TdAdzT3e";
         }
     }
 }
 </script>
 
 <style>
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .home {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .icon-container {
